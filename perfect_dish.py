@@ -1,10 +1,11 @@
 def numbers_perfect_dish() -> int:
     '''
-    The function move number number and check if sum of all his divisions equal himself.
+    The function check if sum of all the divisors of a certain number, is equal to the number itself,
+    and return a number.
+    (Perfect dish -> the sum of all the divisors of a certain number, is equal to the number itself).
     For example:
     6 is perfect dish: 1 + 2 + 3 = 6.
     8 is not perfect dish: 1 + 2 + 4 != 8.
-
     :return: The number that sum of all his divisions equal himself.
     '''
     number_to_check = 1
